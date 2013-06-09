@@ -1,0 +1,52 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: TcpIpDog - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "E:\SysTemp\RSP11D.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "NDEBUG" /D "WIN32" /D "_WINDOWS" /D "_WINDLL" /D "_MBCS" /D "TCPIPDOG_EXPORTS" /Fp"Release/TcpIpDog.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\tony\Source\ReleaseSource\TcpIpDog\CheckAcl.cpp"
+"D:\tony\Source\ReleaseSource\TcpIpDog\ProtocolInfo.cpp"
+"D:\tony\Source\ReleaseSource\TcpIpDog\Tcpipdog.cpp"
+"D:\tony\Source\ReleaseSource\Common\XFile.cpp"
+]
+Creating command line "cl.exe @E:\SysTemp\RSP11D.tmp" 
+Creating temporary file "E:\SysTemp\RSP11E.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "NDEBUG" /D "WIN32" /D "_WINDOWS" /D "_WINDLL" /D "_MBCS" /D "TCPIPDOG_EXPORTS" /Fp"Release/TcpIpDog.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\tony\Source\ReleaseSource\TcpIpDog\StdAfx.cpp"
+]
+Creating command line "cl.exe @E:\SysTemp\RSP11E.tmp" 
+Creating temporary file "E:\SysTemp\RSP11F.tmp" with contents
+[
+ws2_32.lib /nologo /dll /incremental:yes /pdb:"Release/Xfilter.pdb" /machine:I386 /def:".\LspServ.def" /out:"..\release\Xfilter.dll" /implib:"Release/Xfilter.lib" 
+.\Release\CheckAcl.obj
+.\Release\ProtocolInfo.obj
+.\Release\StdAfx.obj
+.\Release\Tcpipdog.obj
+.\Release\XFile.obj
+]
+Creating command line "link.exe @E:\SysTemp\RSP11F.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+CheckAcl.cpp
+ProtocolInfo.cpp
+Tcpipdog.cpp
+XFile.cpp
+Generating Code...
+Linking...
+   Creating library Release/Xfilter.lib and object Release/Xfilter.exp
+
+
+
+<h3>Results</h3>
+Xfilter.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
